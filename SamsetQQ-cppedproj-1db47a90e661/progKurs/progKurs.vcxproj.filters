@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ListH">
+      <UniqueIdentifier>{39bad97d-2348-47b2-8a58-0cf4a7847d58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MenuH">
+      <UniqueIdentifier>{ba93fc6b-20fa-4f93-a93c-8c2eee30de16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ListSRC">
+      <UniqueIdentifier>{f42ca111-af46-411c-8c5d-a9244c7b29de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MenuSRC">
+      <UniqueIdentifier>{fcfeeabb-858b-4854-88c4-6510f0f2b3db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arrayMemoryCheck.cpp">
+      <Filter>Source Files\MenuSRC</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Source Files\MenuSRC</Filter>
+    </ClCompile>
+    <ClCompile Include="strMethod.cpp">
+      <Filter>Source Files\ListSRC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="strList.h">
+      <Filter>Header Files\ListH</Filter>
+    </ClInclude>
+    <ClInclude Include="ListTemplate.h">
+      <Filter>Header Files\ListH</Filter>
+    </ClInclude>
+    <ClInclude Include="arrayMemoryCheck.h">
+      <Filter>Header Files\MenuH</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Header Files\MenuH</Filter>
+    </ClInclude>
+    <ClInclude Include="menuItems.h">
+      <Filter>Header Files\MenuH</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
